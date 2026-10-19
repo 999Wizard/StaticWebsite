@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website Description -->
+    <meta name="description" content="The professional portfolio of Blake H Ferrin, showcasing software development skills and projects.">
+
+    <!-- Browser Tab Title -->
+    <title>Blake H Ferrin | Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- HEADER AND NAVIGATION         -->
+    <!-- ============================= -->
+
+    <header id="home">
+
+        <h1>Blake H Ferrin</h1>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- ============================= -->
+    <!-- MAIN WEBSITE CONTENT          -->
+    <!-- ============================= -->
+
+    <main>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about">
+
+            <div class="intro">
+
+                <h2>Hello, I'm Blake.</h2>
+
+                <p class="subtitle">
+                    Software Development Student
+                </p>
+
+                <p>
+                    Passionate about creating practical software
+                    solutions and continuously improving my
+                    development skills.
+                </p>
+
+            </div>
+
+            <div class="about-content">
+
+                <h3>About Me</h3>
+
+                <p>
+                    I'm a software development student with an
+                    interest in designing and building applications.
+                    I enjoy working through challenging problems
+                    and learning new technologies.
+                </p>
+
+                <h3>Technical Skills</h3>
+
+                <ul class="skills-list">
+                    <li>C#</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>Bash</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        
+<!-- PROJECTS SECTION -->
+<section id="projects">
+
+    <h2>Featured Projects</h2>
+
+    <p>
+        A selection of my software development projects.
+    </p>
+
+    <!-- Project Card Container -->
+    <div class="projects-grid">
+
+        <!-- Project 1: WildCal -->
+        <article class="project-card">
+
+            <h3>WildCal</h3>
+
+            <p>
+                A university event calendar application
+                designed to help students discover campus
+                events, manage RSVPs, and stay connected
+                with student organizations.
+            </p>
+
+            <a
+                href="https://docs.google.com/presentation/d/1jkVYYge8tTpAKeSRqUSjW0Hd4IC0EcSuFHASi-RGxNs/edit?usp=sharing"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View WildCal Presentation &rarr;
+            </a>
+
+        </article>
+
+
+        <!-- Project 2: Learning Management System -->
+        <article class="project-card">
+
+            <h3>Learning Management System</h3>
+
+            <p>
+                A database design project focused on
+                modeling a learning management system,
+                including students, instructors, courses,
+                assignments, and submissions.
+            </p>
+
+            <a
+                href="https://drive.google.com/file/d/1zM7Cbzs8z8IpdPavsQqTDVSz9qPGHDx4/view?usp=sharing"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View LMS Project &rarr;
+            </a>
+
+        </article>
+
+
+        <!-- Project 3: Tic-Tac-Toe -->
+        <article class="project-card">
+
+            <h3>Tic-Tac-Toe</h3>
+
+            <p>
+                A desktop Tic-Tac-Toe application
+                developed using C# and WPF, featuring
+                player turns, game logic, and win detection.
+            </p>
+
+            <a
+                href="https://drive.google.com/file/d/1B2dDwK8W0wCoeZ0gx4TiZYSpLil5rQih/view?usp=sharing"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Tic-Tac-Toe Project &rarr;
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                Have a question or want to connect?
+                Here is an example of a contact form.
+            </p>
+
+        
+
+            <!-- Demonstration Contact Form -->
+            <form class="contact-form" onsubmit="return false;">
+
+                <!-- Full Name -->
+                <div class="form-group">
+
+                    <label for="full-name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="full-name"
+                        name="full-name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Email Address -->
+                <div class="form-group">
+
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Message -->
+                <div class="form-group">
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Submit Button -->
+                <input
+                    type="submit"
+                    value="Send Message"
+                >
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ============================= -->
+    <!-- FOOTER                        -->
+    <!-- ============================= -->
+
+    <footer>
+
+        <p class="footer-name">
+            Blake H Ferrin
+        </p>
+
+        <p>
+            Software Development Student
+        </p>
+
+        <p class="copyright">
+            &copy; 2026 Blake H Ferrin.
+            All rights reserved.
+        </p>
+
+        <a href="#home" class="back-to-top">
+            Back to Top &uarr;
+        </a>
+
+    </footer>
+
+</body>
+</html>
