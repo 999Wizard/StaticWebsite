@@ -1,39 +1,21 @@
-For this assignment I decided to just use the free version of chatGPT without the deep think option selected. For the design of this assignment I asked chatGPT to walk through it with me allowing me to choose the design and layout of the webpage.
+# AI Reflection
 
-USEFUL PROMPTS:
-1. I am working on an assignment and I want to work through with you completing it step by step and allowing me to choose different options for the styling and layout.
+## Part 1 Reflection
 
-2. I choose Minimalist Professional Portfolio. Let's move to step 2 and choose the styling and layout.
+> Keep your original Part 1 reflection here. Do not submit this placeholder as your Part 1 reflection.
 
-3. My Step 2 design choices are: Color palette B; Header layout B; Project cards A; Typography B. Please summarize the design and move to Step 3, building index.html with me step by step.
+## Part 2 Reflection
 
-4. For my portfolio, use the name "Blake H Ferrin", the professional title "Software Development Student", and these projects: WildCal, Learning Management System, and Tic-Tac-Toe. Please help me write the semantic HTML header and navigation next.
+### AI tools used
+I used ChatGPT to help expand my existing single-page portfolio into three HTML pages with a shared stylesheet and external JavaScript.
 
-5. I choose option B: Sticky navigation. Let's continue to Step 3.5 and build the About Me section.
+### Prompts used
+- "Here is my multi-page interactive website assignment. Help me create the webpage with all requirements, using my existing index.html and styles.css."
+- "Preserve my existing portfolio content and project links while adding accessible navigation, dark mode, project filtering, and contact form validation."
 
-6. I choose technical skills style B: Outlined skill badges. Let's continue to Step 3.6 and build the Projects section.
+Add any other prompts you actually used while testing or debugging.
 
-7. I choose project card hover style A: Border highlight. Let's continue to Step 3.7 and build the Contact section.
+### How I adapted and verified the output
+The generated structure separates Home, Projects, and Contact into index.html, projects.html, and contact.html. I retained the existing project descriptions and URLs, and kept the contact form clearly labeled as a demonstration because there is no email backend. The shared app.js checks whether page-specific elements exist before adding event listeners. The navigation uses aria-current for the active page, the mobile menu updates aria-expanded, and the form connects inline errors with aria-describedby.
 
-8. I choose contact form option A: Demonstration form. Let's continue to Step 3.8 and build the footer.
-
-9. Please show me the complete combined index.html with all our decisions incorporated.
-
-10. Please generate the complete styles.css using all my selected design choices.
-
-11. I've added my CSS. Let's continue with Step 5: testing and refining the website.
-
-12. Do I have to link my projects?
-
-13. Please update my three HTML project cards using these links:
-WildCal: https://docs.google.com/presentation/d/1jkVYYge8tTpAKeSRqUSjW0Hd4IC0EcSuFHASi-RGxNs/edit?usp=sharing
-
-Learning Management System: https://drive.google.com/file/d/1zM7Cbzs8z8IpdPavsQqTDVSz9qPGHDx4/view?usp=sharing
-
-Tic-Tac-Toe: https://drive.google.com/file/d/1B2dDwK8W0wCoeZ0gx4TiZYSpLil5rQih/view?usp=sharing
-
-14. Is this correct? [Provided complete index.html for review.]
-
-15. Generate me a README for this project.
-
-The only thing that I changed about the project in the code was removing this as an example form and won't actually submit anywhere because the viewer doesn’t need to see or know that.
+Before submission, describe the changes **you personally made** after testing, including any keyboard, contrast, or mobile layout fixes. Do not claim tests you did not perform.
